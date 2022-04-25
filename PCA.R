@@ -2,16 +2,6 @@ library(dplyr) # for glimpse etc.
 #library(tidyr) # for drop_na etc.
 library(funModeling) # for df_status etc.
 
-universities_df <- read.csv("./Universities.csv")
-
-head(universities_df)
-
-#str(universities_df)
-
-glimpse(universities_df)
-
-# health status of universities data to check variables with NA values
-df_status(universities_df)
 
 toyota_corolla_df = read.csv("ToyotaCorolla.csv")
 
